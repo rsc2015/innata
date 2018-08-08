@@ -10,7 +10,7 @@
 
 
 #vision{
-  margin-top: 3.25rem;
+  margin-top: 5.25rem;
   background: url('../img/genome1.jpg') no-repeat center center fixed;
   position: relative;
  color: white;
@@ -31,8 +31,9 @@
 .mission{
   background: rgba(0, 0, 0, 0.5); 
   color: white;
+  padding: 2.5rem;
 }
-.team, h1{
+/* .team, h1{
   padding: 2.5rem;
 
 }
@@ -44,7 +45,7 @@
 #team img{
   width: 200px;
   height: 200px;
-}
+} */
 
 #mobile{
   text-align: center;
@@ -58,6 +59,7 @@
 #team{
   text-align: center;
   color: grey;
+  margin-bottom: 4rem;
 }
 
 #contact{
@@ -101,6 +103,8 @@
 /* .offer {
   padding: 20px;
 } */
+
+
 /* team css */
 *, *:before, *:after {
   box-sizing: inherit;
