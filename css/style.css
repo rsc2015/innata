@@ -78,8 +78,22 @@ a.nav-link{
   text-align: center;
 }
 
+/* div3 style */
+#offer1{
+   background-color: #8EA6B2; /* #328DCCFF; C177E5FF */
+   text-align: right;
+   padding: 15px 25px;
+}
 
+#offer2{
+  background-color: #328DCCFF; /* #328DCCFF; C177E5FF */
+  text-align: left;
+   padding: 10px 15px;
+}
 
+/* .offer {
+  padding: 20px;
+} */
 /* team css */
 *, *:before, *:after {
   box-sizing: inherit;
