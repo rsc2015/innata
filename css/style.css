@@ -1,21 +1,23 @@
-a.nav-link{
-  color: grey;
+.menuItems {
+  color: white;
 }
 
 
 
 
 #vision{
-  background: url('../img/mobile.jpeg') no-repeat center center fixed;
+  background: url('../img/genome1.jpg') no-repeat center center fixed;
   position: relative;
-  color: white;
-  font-size: 20px;
-  height: 100vh;
+ color: white;
+  /* font-size: 20px;*/
+  height: 100vh; 
   width: 100%;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  padding: 10%;
+  
+ 
+  /* padding: 10%; */
   text-align: center;
 }
 
@@ -23,6 +25,10 @@ a.nav-link{
   padding-top: 25%;
 }
 
+.mission{
+  background: rgba(0, 0, 0, 0.5); 
+  color: white;
+}
 .team, h1{
   padding: 2.5rem;
 
