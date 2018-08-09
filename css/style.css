@@ -71,7 +71,7 @@
   color: grey;
   text-align: center;
   padding: 10%;
-  font-size: 2rem;
+  font-size: 1.75rem;
 }
 
 .aboutPara{
@@ -93,6 +93,7 @@
    background-color: #8EA6B2; /* #328DCCFF; C177E5FF */
    text-align: center;
    padding: 55px 45px ;
+   font-size: 1.15rem;
    
 }
 
@@ -106,6 +107,7 @@
   text-align: left;
    padding: 55px 45px ;
    color: white;
+   font-size: 1.15rem;
 }
 
 /* .offer {
