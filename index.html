@@ -20,103 +20,78 @@
 
 </head>
 <body>
-  <!-- <div class = "container">
-     navbar  
-    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-      <a class="navbar-brand" href="#">
-        <img src="img/logo.png" width="100px">
-      </a>
 
-    <ul class="nav justify-content-end">
-      <li class="nav-item">
-        <a class="nav-link" href="#vision">Vision</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="team.html">Team</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#about">About</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="http://mobile.raregenomics.org/">Mobile</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#contact">Contact</a>
-      </li>
-    </ul>
-    </nav>
-  </div> -->
-  <!-- Navbar -->
+<!-- Navbar -->
 <section id="navbar-top">
-    <div class="container-fluid">
-	<nav class="navbar navbar-expand-md navbar-light fixed-top menuItems">
+    <div class="container">
+	      <nav class="navbar navbar-expand-md navbar-light fixed-top" role="navigation">
 		
-			<div class="navbar-header">
-			<a class="navbar-brand portfolio-title" href="#home"><img src="img/innata-vector-file.png" alt="innata-logo" width="100px"></a>
-			
-			</div>
-			<button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-					<span class="navbar-toggler-icon"></span>
-				  </button>
-			<div class="navbar-collapse collapse" id="collapsibleNavbar" aria-expanded="false" style="height: 0px;">
-			<ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-              <a class="nav-link" href="#vision">HOME</a></li>
-			  <li class="nav-item">
-          <a class="nav-link" href="#about">ABOUT</a></li>
-          <li class="nav-item">
-            <a class="nav-link" href="#app">DOWNLOAD</a></li>
-			  <li class="nav-item">
-				  <a class="nav-link" href="#team">TEAM</a> </li>
-			  <li class="nav-item">
-				  <a class="nav-link" href="#quote" href="#">UPDATES</a></li>
-				  
-			</ul>
-		   </div>
-		
-	</nav>
-</div>
+          <div class="navbar-header">
+          <a class="navbar-brand portfolio-title" href="#home"><img src="img/innata-vector-file.png" alt="innata-logo" width="100px"></a>
+          </div>
+          
+          <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+              <span class="navbar-toggler-icon"></span>
+          </button>
 
-
+          <div class="navbar-collapse collapse" id="collapsibleNavbar" aria-expanded="false" style="height: 0px;">
+          <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                  <a class="nav-link" href="#home">HOME</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#about">ABOUT</a></li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#app">DOWNLOAD</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#team">TEAM</a> </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#quote" href="#">UPDATES</a>
+              </li> 
+          </ul>
+          </div>
+      
+	    </nav>
+      </div>
 </section>
+
+
 <!-- introduction -->
 <div class="container-fluid">
   <div class="row">
-  <div  class="col-sm-12 col-lg-12 vision">
-   
-      <div class="col-sm-12 col-lg-12 mission">
-      <h1 class="display-4">“Democratizing access to precision medicine for the patients.”</h1>
-      </div>
-      <div class="col-sm-12 col-lg-4 trialForm">
-      <form>
-          <div class="form-group">
-              <h3>Start your clinical trial search here.</h3>
-            <!-- <label for="exampleInputEmail1">Enter Condition</label> -->
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Condition">
-            <!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
-          </div>
-          <div class="form-group">
-            <!-- <label for="exampleInputPassword1">City or Zip Code</label> -->
-            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="City or Zip Code">
-          </div>
-          <div class="form-check">
-            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-            <label class="form-check-label" for="exampleCheck1">include closed trials</label>
-          </div>
-          <button type="submit" class="w-50 h-50 btn btn-success btnSearch">Search</button>
-        </form>
-      </div>
-    
-    
+        <div  class="col vision" id="home">
+        <div class="col-sm-12 col-lg-12 mission">
+        <h2 class="display-4">“Democratizing access to precision medicine for the patients.”</h2>
+        </div>
+
+        <div class="col-sm-12 col-lg-4 trialForm">
+        <form>
+            <div class="form-group">
+                <h3>Start your clinical trial search here.</h3>
+              <!-- <label for="exampleInputEmail1">Enter Condition</label> -->
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Condition">
+              <!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
+            </div>
+            <div class="form-group">
+              <!-- <label for="exampleInputPassword1">City or Zip Code</label> -->
+              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="City or Zip Code">
+            </div>
+            <div class="form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">include closed trials</label>
+            </div>
+            <button type="submit" class="w-50 h-50 btn btn-success btnSearch">Search</button>
+          </form>
+        </div> 
   </div>
 </div><!--row-->
 </div><!--CONTAINER-FUID-->
+
+
+
   <!-- About (div3)-->
   <div class="container">
-    <!-- <div id="team" class="team">
-      <h1> Passionate team behind this app </h1>
-        <p>We are a nimble team of volunteers spread across the country!</p></br>
-        <p>Meet the people behind the app!!!</p> -->
         <div id="about" class="aboutPara">
             <h1> ABOUT </h1>
               <p>INNATA Foundation is a Social Enterprise Organization. Our mission is to bring advanced 21st century technology to Patients with conditions underlying cause is genetics,  and connect them to advanced medicine based on precision medicine treatments.</p>
@@ -124,55 +99,87 @@
   </div> 
   
   <div class="container-fluid">
-      <div class="row offer">
-  <div id="offer1" class=" col-sm-12 col-lg-6">
-    <h3>Mission</h3>
-    <p>Our mission is to bring advanced 21st century technology to
-      Patients with genetic underlying conditions build the bridges to its Healthcare ecosystem.
-      </p>
-    <!-- <ul><li>Designed to delight, couldnt be easier to use and interact.</li>
-      <li>Just 1,2,3 steps: press, drag and click to join a group or another patient</li>
-      <li>Easy and intuitive user interface is going to make you love it everytime.</li>
-    </ul> -->
+      <div class="row" id="offer">
 
+        <div id="offer1" class=" col-sm-12 col-lg-6">
+          <h3>Mission</h3>
+          <p>Our mission is to bring advanced 21st century technology to
+            Patients with genetic underlying conditions build the bridges to its Healthcare ecosystem.
+          </p>
+        </div>
+
+        <div id="offer2" class=" col-sm-12 col-lg-6">
+          <h3>Vision</h3>
+            <ul>
+                <li>Help to bring access to any patient suffering genetic diseases to advanced medicine regardless on where they are.</li>
+                <li>Building an inclusive platform using advanced medicine and Technology.</li>
+            </ul>
+          </div>
+
+      </div>
   </div>
-  <div id="offer2" class=" col-sm-12 col-lg-6">
-      <h3>Vision</h3>
-      <ul><li>Help to bring access to any patient suffering genetic diseases to advanced medicine regardless on where they are.</li>
- 
-        <li>Building an inclusive platform using advanced medicine and Technology.</li>
-        </ul>
-      <!--<p>Our caring bot {name of the bot} is there for you to accompany you in your journey, helping you to navigate around the complexities of the process: from diagnosis to the cure</p> 
-       <ul><li>Find current information on the condition and the gene variants responsible.</li>
-        <li>Find the specific DNA test to confirm your diagnosis</li>
-        <li>Find the advanced medicine treatment</li>
-      </ul> -->
-    </div>
-    </div>
-    </div>
+
+  <div class="container-fluid">
+    <div class="row" id="app">
+        <div class="col-sm-12 col-lg-6">
+          <h3>Features</h3>
+              <ul>
+                <li>Designed to delight, couldnt be easier to use and interact.</li>
+                <li>Just 1,2,3 steps: press, drag and click to join a group or another patient</li>
+                <li>Easy and intuitive user interface is going to make you love it everytime.</li>
+              </ul>
+
+          <p>Our caring bot {name of the bot} is there for you to accompany you in your journey, helping you to navigate around the complexities of the process: from diagnosis to the cure</p> 
+              <ul>
+                <li>Find current information on the condition and the gene variants responsible.</li>
+                <li>Find the specific DNA test to confirm your diagnosis</li>
+                <li>Find the advanced medicine treatment</li>
+              </ul>
+        </div>
+
+          <div  class=" col-sm-12 col-lg-6">
+            <img src="img/app.jpg" alt="app_image">
+          </div>
+      </div>
+  </div>
 
 
 <!-- team members -->
 <div class="container">
     <div id="team" class="team">
-        <h1 class> Our Team </h1>
+      <h1 class> Our Team </h1>
           <p>We are a nimble team of volunteers spread across the country!</p>
-          <p>Meet the people behind the app!!!</p>
+          <p>Meet the people behind the app!!!</p>     
     </div>
-    <div id="team" class="row">
-        <div class="column-team">
-            <div class="card">
+
+    <div class="row text-center">
+        <div class="column-team-1 col-lg-6">
+            <div class="card founder">
               <img src="img/bea.jpg" alt="bea" style="width:100%">
               <div class="container container-team">
-                <h5>Beatriz Jones</h5>
-                <p class="title">Founder</p>
-                <!-- <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-                <p>example@example.com</p>
-                <p><button class="button">Contact</button></p> -->
+              <h5>Beatriz Jones</h5>
+              <p class="title">Founder</p>
+          <!-- <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+          <p>example@example.com</p>
+          <p><button class="button">Contact</button></p> -->
               </div>
+             </div>
+          </div>
+
+        <div class="column-team-1 col-lg-6">
+          <div class="card founder">
+            <img src="img/jerome.jpeg" alt="jerome" style="width:100%">
+            <div class="container container-team">
+              <h5>Jerome Meier</h5>
+              <p class="title">Board Member</p>  
+            </div>
             </div>
           </div>
-        
+    </div>
+
+
+    <div class="row text-center">
+
           <div class="column-team">
             <div class="card">
               <img src="img/rohini.jpg" alt="Rohini" style="width:100%">
@@ -192,81 +199,73 @@
               </div>
             </div>
           </div>
+
           <div class="column-team">
             <div class="card">
-              <img src="img/Neeta.jpg" alt="Neeta" style="width:100%">
+              <img src="img/amy.png" alt="Neeta" style="width:100%">
+              <div class="container container-team">
+                <h5>Amy Chen</h5>
+                <p class="title">UX Designer</p>
+              </div>
+            </div>
+          </div>
+    
+
+          <div class="column-team">
+            <div class="card">
+              <img src="img/aamir.jpg" alt="Blank" style="width:100%">
+              <div class="container container-team">
+                <h5>Aamir Goriawala</h5>
+                <p class="title">Data Scientist</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="column-team">
+            <div class="card">
+              <img src="img/neeta.jpg" alt="Blank" style="width:100%">
               <div class="container container-team">
                 <h5>Neeta Shukla</h5>
                 <p class="title">Business Analyst</p>
               </div>
             </div>
           </div>
-    
 
-    <div class="column-team">
-      <div class="card">
-        <img src="img/Blank.png" alt="Blank" style="width:100%">
-        <div class="container container-team">
-          <h5>Blank</h5>
-          <p class="title">UX Designer</p>
-        </div>
-      </div>
-    </div>
+          <div class="column-team">
+            <div class="card">
+              <img src="img/maria.jpg" alt="Blank" style="width:100%">
+              <div class="container container-team">
+                <h5>Maria Hernandez</h5>
+                <p class="title">Data Analyst</p>
+              </div>
+            </div>
+          </div>
 
-    <div class="column-team">
-      <div class="card">
-        <img src="img/Blank.png" alt="Blank" style="width:100%">
-        <div class="container container-team">
-          <h5>Blank</h5>
-          <p class="title">UX Designer</p>
-        </div>
-      </div>
-    </div>
+          <div class="column-team">
+            <div class="card">
+              <img src="img/anand.jpeg" alt="Blank" style="width:100%">
+              <div class="container container-team">
+                <h5>Anand Shukla</h5>
+                <p class="title">Data Scientist</p>
+              </div>
+            </div>
+          </div>
 
-    <div class="column-team">
-      <div class="card">
-        <img src="img/Blank.png" alt="Blank" style="width:100%">
-        <div class="container container-team">
-          <h5>Blank</h5>
-          <p class="title">UX Designer</p>
-        </div>
-      </div>
-    </div>
+          <div class="column-team">
+            <div class="card">
+              <img src="img/Blank.png" alt="Blank" style="width:100%">
+              <div class="container container-team">
+                <h5>Priya</h5>
+                <p class="title">Project Manager</p>
+              </div>
+            </div>
+          </div>
 
-    <div class="column-team">
-      <div class="card">
-        <img src="img/Blank.png" alt="Blank" style="width:100%">
-        <div class="container container-team">
-          <h5>Blank</h5>
-          <p class="title">UX Designer</p>
-        </div>
-      </div>
-    </div>
-
-    <div class="column-team">
-      <div class="card">
-        <img src="img/Blank.png" alt="Blank" style="width:100%">
-        <div class="container container-team">
-          <h5>Blank</h5>
-          <p class="title">UX Designer</p>
-        </div>
-      </div>
-    </div>
-
-    <div class="column-team">
-      <div class="card">
-        <img src="img/Blank.png" alt="Blank" style="width:100%">
-        <div class="container container-team">
-          <h5>Blank</h5>
-          <p class="title">UX Designer</p>
-        </div>
-      </div>
-    </div>
   </div>
   </div>
 
 
-  <!--quote-->
+  <!--blockquote-->
   <div class="jumbotron" id="quote" >
           <blockquote class="blockquote">
             <p>“Doctors have always recognized that every patient is unique, and doctors have always tried to tailor their treatments as best they can to individuals. You can match a blood transfusion to a blood type — that was an important discovery. What if matching a cancer cure to our genetic code was just as easy, just as standard? What if figuring out the right dose of medicine was as simple as taking our temperature?”
@@ -279,24 +278,9 @@
 
   <!--contact-us -->
   <div class="container-fluid bg-img">
-      
-
-      <!-- <form action="/action_page.php">
-        <div class="contact-us">
-          <h1>Contact Us</h1>
-    
-          <label for="email"><b>Email</b></label>
-          <input type="text" placeholder="Enter Email" name="email" required>
-    
-          <label for="psw"><b>Password</b></label>
-          <input type="password" placeholder="Enter Password" name="psw" required>
-    
-          <button type="submit" class="btn">Login</button>
-        </div>
-      </form> -->
 
       <form action="action_page.php">
-        <div class="contact-us">
+        <div class="col-sm-12 col-lg-4 contact-us">
           <h2>Sign-up for updates.</h2>
           <p>Learn more about our Clinical Research Solutions.</p>
         <!-- </div> -->
@@ -333,7 +317,7 @@
       <h6>3820 Roswell Rd NE, 30342 Atlanta US</h6>
     </div>
   </div>
-</br>
+<br>
 
 
   <!-- footer copyright-->
