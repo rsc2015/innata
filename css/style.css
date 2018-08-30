@@ -235,7 +235,6 @@ img:hover {
 .bg-img {
   /* The image used */
   background-image: url("../img/contact-page.jpg");
-
   min-height: 600px;
   /* Center and scale the image nicely */
   background-position: center;
@@ -243,15 +242,14 @@ img:hover {
   background-size: cover;
 }
 
-/* Add styles to the form container */
- .contact-us { 
-  /* position: absolute; */
-  margin: auto 4rem;
-  
-  padding-top: 4rem;
-  /* background-color: white; */
-} 
-
+/* Add styles to the updatesvform container */
+.contact-us{
+  /* background: rgba(193, 119, 229, 0.90);  */
+  color: white;
+  padding-top: 5rem;
+  margin: 1.5% auto;
+  width: 30%;
+}
 .contact-us > h2{
   /* position: absolute; */
   color: white;
@@ -269,6 +267,18 @@ input[type=text], input[type=password] {
 input[type=text]:focus, input[type=password]:focus {
   background-color: #ddd;
   outline: none;
+}
+
+
+.btn-signup{
+  background-color: ffffff;
+  color: white;
+  /* padding: 0 20px; */
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+  height: 3rem;
 }
 
 /* Set a style for the submit button */
